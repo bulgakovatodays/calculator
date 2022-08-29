@@ -1,0 +1,182 @@
+*,
+*::before,
+*::after {
+    padding: 0px;
+    margin: 2px;
+    border: 2px;
+    box-sizing: border-box;
+    line-height: 1;
+  }
+
+body {
+    height: 100%;
+    margin-top: 3%;
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    background-image: url(assets/wood-background.jpg);
+    background-size: 100%; 
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+}
+/* two general parts: */
+.calculator-general {
+  width: 90%;
+  max-width: 700px;
+  height: 100%;
+  max-height: 900px;
+}
+
+.head {
+  width: 100%;
+  height: 30%;
+  background-color: rgb(44, 40, 40);
+  border-radius: 30% 30% 0 0;
+  display: flex;
+  justify-content: center;
+  padding: 8%;
+}
+
+  .display {
+    width: 90%;
+    height: 25%;
+    padding: 2.5%;
+    background-color: rgb(197, 197, 197);
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.calculator {
+  background-color: rgb(197, 197, 197);
+  width: 100%;
+  height: 70%;
+  border-radius: 0 0 5% 5%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5%;
+
+  position: relative;
+  top:-2px;
+}
+
+.first-line {
+  width: 93%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+}
+
+.switch {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+
+}
+.elips {
+  background-color: rgb(197, 197, 197);
+  border-radius: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.button1 {
+  width: 100%;
+  height: 40%;
+  color: beige;
+  border-radius: 8%;
+  box-shadow: 5px 2.5px 2.5px rgb(37, 37, 37);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+.button1:hover {
+  color: rgb(252, 138, 32);
+}
+.button1:active {
+  position: relative;
+  top: 2.5px;
+  left:2.5px;
+  box-shadow: none;
+}
+
+
+.first-line_buttons {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+}
+
+.basic {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  width: 100%;
+  color: beige;
+  border-radius: 8%;
+  box-shadow: 5px 2.5px 2.5px rgb(37, 37, 37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+.button:hover {
+  color: rgb(252, 138, 32);
+}
+.button:active {
+  position: relative;
+  top: 2.5px;
+  left:2.5px;
+  box-shadow: none;
+}
+
+.column {
+  width: 12%;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 5px;
+  margin-bottom: 3%;
+}
+
+.column5 {
+  gap: 6.5px;
+}
+
+.big {
+  height: 4em;
+  margin-top: 5px;
+}
+.square {
+  width: 100%;
+  height: 2em;
+}
+
+.small {
+height: 1em;
+font-size:smaller;
+padding: 10px;
+}
+.grey {
+  background-color: rgb(100, 98, 98);
+}
+
+.black {
+  background-color: black;
+}
+
+.blue {
+  background-color: rgb(81, 75, 100);
+}
+
+.addButon {
+  display: none;
+}

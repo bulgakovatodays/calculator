@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/calculator-icon.png" />
+  <link rel="stylesheet" href="./style.css">
+  <title>Calculator</title>
+</head>
+<body>
+  <section class="calculator-general">
+
+    <div class="head">
+      <div class="display"></div>
+    </div >
+    <div class="calculator">
+      <div class="first-line">
+        <div class="switch">
+          <p>1-2-3</p>
+          <div class="elips blue">------</div>
+        </div>
+        <div class="switch">
+          <p>1-2-3-4-5-6</p>
+          <div class="elips blue">------------</div>
+        </div>
+        <div class="first-line_buttons">
+          <div class="button1 buttonRad small blue">&#8730;</div>
+          <div class="button1 small blue">x^2</div>
+        </div>
+      </div>
+      <div class="basic">
+        <div class="column">
+          <div class="button buttonAC square grey">AC</div> <!-- полное обнуление -->
+          <div class="button buttonCE square grey">CE</div><!--сброс последнего набранного числа -->
+          <div class="button buttonSumb square grey">&#129046;</div><!-- удаление одного элемента-->
+          <div class="button switchPlusMin square grey">+/-</div><!-- -->
+
+          <div class="button buttonMU small grey addButon">MU</div>
+        </div>
+
+        <div class="column">
+          <div class="button button0 square black" id="0">0</div>
+          <div class="button buttonOne square black" id="1">1</div>
+          <div class="button button4 square black" id="4">4</div>
+          <div class="button button7 square black" id="7">7</div>
+          <div class="button buttonMC small grey addButon">MC</div>
+        </div>
+
+        <div class="column">
+          <div class="button button00 square black" id="00">00</div>
+          <div class="button button2 square black" id="2">2</div>
+          <div class="button button5 square black" id="5">5</div>
+          <div class="button button8 square black" id="8">8</div>
+          <div class="button buttonMR small grey addButon">MR</div>
+        </div>
+
+        <div class="column">
+          <div class="button buttonPoint square black">.</div>
+          <div class="button button3 square black" id="3">3</div>
+          <div class="button button6 square black" id="6">6</div>
+          <div class="button button9 square black" id="9">9</div>
+          <div class="button buttonMmin small grey addButon">M-</div>
+        </div>
+
+        <div class="column column5">
+          <div class="button buttonSum big grey massSimbol">+</div>
+          <div class="button buttonMult square grey massSimbol">x</div>
+          <div class="button buttonPerc square grey">%</div>
+          <div class="button buttonMmax small grey addButon">M+</div>
+        </div>
+
+        <div class="column column5">
+          <div class="button buttonEquals big grey">=</div>
+          <div class="button buttonSub square grey massSimbol">-</div>
+          <div class="button buttonDiv square grey massSimbol">/</div>
+          <div class="button buttonGT small grey addButon">GT</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</body>
+<script src="./script.js"></script>
+</html>

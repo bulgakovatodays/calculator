@@ -1,1 +1,1 @@
-# [calculator](https://bulgakovatodays.github.io/calulator/)
+# [calculator](https://bulgakovatodays.github.io/calculator/)

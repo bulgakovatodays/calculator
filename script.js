@@ -167,8 +167,8 @@ squareRoot.onclick = function(event) {
 // умножение на дробь
 function fractionalMult(a,b) {
   console.log(previosNum + '*' + string);
-  console.log(previosNum.includes('.'));
-  console.log(string.includes('.'));
+  //console.log(previosNum.includes('.'));
+  //console.log(string.includes('.'));
   result = '';
 
   if (!a.includes('.') && !b.includes('.')) {
